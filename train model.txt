@@ -1,0 +1,1 @@
+python cifar10_run_exp.py --random_init --train --cutout --n_epoch 100 --path "/home/weiming-xiong/Desktop/ProgressiveSearch/historyData/myGpu/Cifar10_arch/fix_determined/SEConv/1/train model" --train_batch_size 128 --test_batch_size 512
