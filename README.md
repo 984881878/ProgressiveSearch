@@ -1,6 +1,7 @@
 # ProgressiveSearch
 
-the details of this project is explained in my paper 'Efficiently Layer-wise Progressive Neural Architecture Search'
+the details of this project is explained in my paper 逐层渐进式的高效神经网络结构搜索的研究和实现(Efficiently Layer-wise Progressive Neural Architecture Search)
+https://github.com/984881878/ProgressiveSearch/blob/master/%E9%80%90%E5%B1%82%E6%B8%90%E8%BF%9B%E5%BC%8F%E7%9A%84%E9%AB%98%E6%95%88%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84%E6%90%9C%E7%B4%A2%E7%9A%84%E7%A0%94%E7%A9%B6%E5%92%8C%E5%AE%9E%E7%8E%B0.doc
 
 requirement pytorch >= 1.0.
 
