@@ -21,3 +21,11 @@ python cifar10_arch_search.py --share_classifier --train_batch_size 64 --test_ba
 ### search model architecture not fix the determined layer(accuracy and loss weiht is respectively 0.9 0.1)
 
 python cifar10_arch_search.py --share_classifier --train_batch_size 64 --test_batch_size 512 --pretrained_batch 256 --n_worker 16 --n_epochs 2 --pretrained_epochs 5 --determined_train --re_init "no_reinit" --determined_train_epoch 3 --determined_train_batch 128 --depth 56 --alpha 48 --target_hardware "gpu1" --reg_loss_type "add" --reg_loss_acc 0.9 --reg_loss_latency 0.1
+
+### train found model with random init
+
+python cifar10_run_exp.py --random_init --train --cutout --n_epoch 100 --path "your model architecture description document location" --train_batch_size 128 --test_batch_size 512
+
+### train model with special init
+
+python cifar10_run_exp.py --train --cutout --n_epoch 100 --path "your model architecture description and parameter chekpoint file location" --train_batch_size 256 --test_batch_size 512
